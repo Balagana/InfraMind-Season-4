@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">XYZ Fit</string>
+    <string name="uploadDocuments">Upload Documents</string>
+    <string name="userManual">User Guide</string>
+    <string name="hContent">\n\t Kindly follow the instructions given below for smooth functionality.
+        \n\n1. Switch on your mobile bluetooth.
+        \n\n2. Scan for device name mentioned in the card provided.
+        \n\n3. The MAC Address given in the card is the password for your health device.
+        \n\n4. Pair the devices and start accessing the app.
+        \n\nNote:
+        \n\n1. The device must be connected to internet for uploading your health data to server every 30 seconds.
+        \n\n2. The device bluetooth must be switched on for receiving data from your health device.
+        \n\n\nWishing you good health and happiness in life!
+    </string>
+    <string name="file_name">Enter File Name</string>
+    <string name="choose_file">CHOOSE FILE</string>
+    <string name="upload">UPLOAD</string>
+    <string name="show_uploads">SHOW UPLOADS</string>
+    <string name="upload_documents">Upload Documents</string>
+    <string name="pdf">PDF</string>
+    <string name="image">Image</string>
+</resources>

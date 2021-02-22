@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "306078446580",
+    "project_id": "xyz-fit",
+    "storage_bucket": "xyz-fit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306078446580:android:94d10dd64d7dda2049bfa1",
+        "android_client_info": {
+          "package_name": "com.example.myfirstapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306078446580-35ihh0ke3ppp6f7p7kv0nvv1m8iso39o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq6hdk2P_wmfj2iILJKsVZBd6ksoVtaJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306078446580-35ihh0ke3ppp6f7p7kv0nvv1m8iso39o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20sp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:padding="10sp" />
+
+    <Button
+        android:id="@+id/upDocu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appname"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="15sp"
+        android:paddingVertical="5sp"
+        android:text="@string/uploadDocuments"
+        android:textSize="16sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/uManual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appname"
+        android:layout_toEndOf="@id/upDocu"
+        android:layout_marginTop="20sp"
+        android:text="@string/userManual"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:paddingVertical="5sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        app:srcCompat="@drawable/heart_rate"
+        android:layout_below="@id/upDocu"
+        android:layout_marginTop="20sp"
+        android:contentDescription="Heart-Rate and Pulse Oximeter Icon" />
+
+    <TextView
+        android:id="@+id/pRate"
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uManual"
+        android:layout_marginTop="40sp"
+        android:layout_toEndOf="@id/imageView"
+        android:layout_marginStart="20sp"
+        android:paddingVertical="5sp"
+        android:text="Heart-Rate : 0 beats (BPM)"
+        android:textSize="16sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/oRate"
+        android:layout_width="220sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pRate"
+        android:layout_marginTop="15sp"
+        android:layout_marginStart="20sp"
+        android:layout_toEndOf="@id/imageView"
+        android:paddingVertical="5sp"
+        android:text="Oxygen Saturation : 0 % (SpO2)"
+        android:textSize="16sp"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="20sp"
+        android:contentDescription="Quotes Icon"
+        app:srcCompat="@drawable/inspiration" />
+
+</RelativeLayout>

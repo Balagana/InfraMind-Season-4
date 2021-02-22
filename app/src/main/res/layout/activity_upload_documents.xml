@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uploadDocuments">
+    <TextView
+        android:id="@+id/uDocu"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:text="@string/upload_documents"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:padding="10sp" />
+
+    <EditText
+        android:id="@+id/file_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter File Name"
+        android:layout_marginVertical="10sp"
+        android:textSize="18sp"
+        android:paddingVertical="5sp"
+        android:layout_below="@+id/uDocu"
+        android:textAlignment="center" />
+
+    <CheckBox
+        android:id="@+id/imageCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/image"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="50sp"
+        android:layout_below="@+id/file_Name" />
+
+    <CheckBox
+        android:id="@+id/pdfCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pdf"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="50sp"
+        android:layout_below="@+id/file_Name"
+        android:layout_toEndOf="@id/imageCheckbox" />
+
+    <Button
+        android:id="@+id/cFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_file"
+        android:textSize="14sp"
+        android:layout_marginHorizontal="40sp"
+        android:layout_below="@+id/imageCheckbox" />
+
+    <Button
+        android:id="@+id/uFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upload"
+        android:textSize="14sp"
+        android:layout_marginHorizontal="40sp"
+        android:layout_below="@+id/pdfCheckbox"
+        android:layout_toEndOf="@id/cFile" />
+
+    <Button
+        android:id="@+id/sUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_uploads"
+        android:textSize="14sp"
+        android:layout_marginVertical="20sp"
+        android:layout_below="@+id/uFile"
+        android:layout_centerHorizontal="true" />
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginVertical="20sp"
+        android:layout_below="@+id/sUp" />
+
+</RelativeLayout>
